@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Script from "next/script";
-import Layout from "../../components/layout";
+import Layout from "../components/layout";
 
 function firstPost() {
   return (

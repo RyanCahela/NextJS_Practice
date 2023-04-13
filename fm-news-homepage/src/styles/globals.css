@@ -3,6 +3,49 @@
 @tailwind utilities;
 
 :root {
-  --bgColor: #b10f2e;
-  --textColor: #ffffff;
+  --yellow: hsla(35, 77.4%, 61.8%, 1);
+  --silver: hsla(233, 8.4%, 79%, 1);
+  --dark--space--blue: hsla(240, 100%, 5.1%, 1);
+  --almost--white: hsla(36, 100%, 99%, 1);
+  --light--vermillion: hsla(5, 85.1%, 63.1%, 1);
+  --gunmetal: hsla(236, 13%, 42.4%, 1);
+}
+
+.text-heading-xl {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+.text-heading-lg {
+  font-size: 40px;
+  line-height: 40px;
+}
+.text-heading-md {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.text-heading-sm {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text-heading-xs {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text-body {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.button {
+  color: var(--almost--white);
+  background-color: var(--light--vermillion);
+  padding-block: 0.75rem;
+  padding-inline: 2rem;
+  letter-spacing: 4.38px;
+  text-transform: uppercase;
+  font-weight: bold;
 }

@@ -5,44 +5,104 @@
 :root {
   --yellow: hsla(35, 77.4%, 61.8%, 1);
   --silver: hsla(233, 8.4%, 79%, 1);
-  --dark--space--blue: hsla(240, 100%, 5.1%, 1);
-  --almost--white: hsla(36, 100%, 99%, 1);
-  --light--vermillion: hsla(5, 85.1%, 63.1%, 1);
+  --dark-space-blue: hsla(240, 100%, 5.1%, 1);
+  --almost-white: hsla(36, 100%, 99%, 1);
+  --light-vermillion: hsla(5, 85.1%, 63.1%, 1);
   --gunmetal: hsla(236, 13%, 42.4%, 1);
 }
 
-.text-heading-xl {
+/* Color Utility Classes */
+.text-color-yellow {
+  color: var(--yellow);
+}
+
+.text-color-silver {
+  color: var(--silver);
+}
+
+.text-color-dark-space-blue {
+  color: var(--dark-space-blue);
+}
+
+.text-color-almost-white {
+  color: var(--almost-white);
+}
+
+.text-color-light-vermillion {
+  color: var(--light-vermillion);
+}
+
+.text-color-gunmetal {
+  color: var(--gunmetal);
+}
+
+/* Background Color Utility Classes */
+.bg-color-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-color-silver {
+  background-color: var(--silver);
+}
+
+.bg-color-dark-space-blue {
+  background-color: var(--dark-space-blue);
+}
+
+.bg-color-almost-white {
+  background-color: var(--almost-white);
+}
+
+.bg-color-light-vermillion {
+  background-color: var(--light-vermillion);
+}
+
+.bg-color-gunmetal {
+  background-color: var(--gunmetal);
+}
+
+/* Text Utility Classes */
+
+.text-size-heading-xl {
   font-size: 56px;
   line-height: 56px;
+  font-weight: bold;
 }
 
-.text-heading-lg {
+.text-size-heading-lg {
   font-size: 40px;
   line-height: 40px;
+  font-weight: bold;
 }
-.text-heading-md {
+.text-size-heading-md {
   font-size: 32px;
   line-height: 32px;
+  font-weight: bold;
 }
 
-.text-heading-sm {
+.text-size-heading-sm {
   font-size: 20px;
   line-height: 24px;
+  font-weight: bold;
 }
 
-.text-heading-xs {
+.text-size-heading-xs {
   font-size: 18px;
   line-height: 24px;
+  font-weight: bold;
 }
 
-.text-body {
+.text-size-body {
   font-size: 15px;
   line-height: 26px;
+  font-weight: bold;
 }
 
+/* Component Classes */
+
 .button {
-  color: var(--almost--white);
-  background-color: var(--light--vermillion);
+  color: var(--almost-white);
+  background-color: var(--light-vermillion);
   padding-block: 0.75rem;
   padding-inline: 2rem;
   letter-spacing: 4.38px;

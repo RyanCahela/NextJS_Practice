@@ -26,7 +26,7 @@ function RecentStory() {
       <ul className="divide-y divide-gunmetal">
         {jsonData.recentStories.map((story) => {
           return (
-            <li className="pb-7 divide-solid">
+            <li className="pb-7 divide-solid" key={story.headline}>
               <h3 className="text-color-almost-white text-size-heading-sm pt-8">
                 {story.headline}
               </h3>
